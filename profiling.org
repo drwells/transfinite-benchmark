@@ -1,0 +1,133 @@
+* release on master
+  [drwells@archway unity-circle]$ time make run
+  [ 66%] Built target unity
+  [100%] Run unity with Release configuration
+  Number of active cells: 20
+  Number of active cells: 80
+  Refinement time: 0
+  Number of active cells: 320
+  Refinement time: 1
+  Number of active cells: 1280
+  Refinement time: 7
+  Number of active cells: 5120
+  Refinement time: 33
+  Number of active cells: 20480
+  Refinement time: 133
+  Number of active cells: 81920
+  Refinement time: 540
+  Number of active cells: 327680
+  Refinement time: 2147
+  Number of active cells: 1310720
+  Refinement time: 8645
+  [100%] Built target run
+  make run  11.73s user 0.07s system 99% cpu 11.833 total
+* debug on master
+  [drwells@archway unity-circle]$ time make run
+  [ 66%] Built target unity
+  [100%] Run unity with Debug configuration
+  Number of active cells: 20
+  Number of active cells: 80
+  Refinement time: 1
+  Number of active cells: 320
+  Refinement time: 5
+  Number of active cells: 1280
+  Refinement time: 24
+  Number of active cells: 5120
+  Refinement time: 123
+  Number of active cells: 20480
+  Refinement time: 784
+  Number of active cells: 81920
+  Refinement time: 7760
+  [100%] Built target run
+  make run  8.89s user 0.03s system 99% cpu 8.954 total
+* remove dynamic allocation in Manifold branch
+[100%] Run unity with Release configuration
+Number of active cells: 20
+Number of active cells: 80
+Refinement time: 1
+Number of active cells: 320
+Refinement time: 4
+Number of active cells: 1280
+Refinement time: 20
+Number of active cells: 5120
+Refinement time: 46
+Number of active cells: 20480
+Refinement time: 130
+Number of active cells: 81920
+Refinement time: 384
+Number of active cells: 327680
+Refinement time: 1521
+Number of active cells: 1310720
+Refinement time: 6091
+* inline more GeometryInfo functions
+Number of active cells: 20
+Number of active cells: 80
+Refinement time: 0
+Number of active cells: 320
+Refinement time: 1
+Number of active cells: 1280
+Refinement time: 5
+Number of active cells: 5120
+Refinement time: 21
+Number of active cells: 20480
+Refinement time: 84
+Number of active cells: 81920
+Refinement time: 343
+Number of active cells: 327680
+Refinement time: 1365
+Number of active cells: 1310720
+Refinement time: 5453
+* cache vertices
+Number of active cells: 20
+Number of active cells: 80
+Refinement time: 0
+Number of active cells: 320
+Refinement time: 1
+Number of active cells: 1280
+Refinement time: 4
+Number of active cells: 5120
+Refinement time: 20
+Number of active cells: 20480
+Refinement time: 81
+Number of active cells: 81920
+Refinement time: 328
+Number of active cells: 327680
+Refinement time: 1314
+Number of active cells: 1310720
+Refinement time: 5274
+* more vertex caching
+Number of active cells: 20
+Number of active cells: 80
+Refinement time: 0
+Number of active cells: 320
+Refinement time: 1
+Number of active cells: 1280
+Refinement time: 4
+Number of active cells: 5120
+Refinement time: 20
+Number of active cells: 20480
+Refinement time: 78
+Number of active cells: 81920
+Refinement time: 317
+Number of active cells: 327680
+Refinement time: 1273
+Number of active cells: 1310720
+Refinement time: 5056
+* add inline declarations around vertex
+Number of active cells: 20
+Number of active cells: 80
+Refinement time: 0
+Number of active cells: 320
+Refinement time: 1
+Number of active cells: 1280
+Refinement time: 5
+Number of active cells: 5120
+Refinement time: 21
+Number of active cells: 20480
+Refinement time: 79
+Number of active cells: 81920
+Refinement time: 293
+Number of active cells: 327680
+Refinement time: 1171
+Number of active cells: 1310720
+Refinement time: 4699
